@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M100,10
+           L160,40
+           L160,100
+           L140,120
+           L100,180
+           L60,120
+           L40,100
+           L40,40
+           Z"
+        fill="#4E342E"
+        stroke="#6D4C41"
+        stroke-width="2"/>
+
+  <!-- Wood Grain Effect in Shield -->
+  <g fill="none" stroke="#6D4C41" stroke-width="1" opacity="0.3">
+    <line x1="50" y1="60" x2="150" y2="60"/>
+    <line x1="50" y1="80" x2="150" y2="80"/>
+    <line x1="50" y1="100" x2="150" y2="100"/>
+    <line x1="50" y1="120" x2="150" y2="120"/>
+    <line x1="50" y1="140" x2="150" y2="140"/>
+    <line x1="60" y1="60" x2="60" y2="140"/>
+    <line x1="80" y1="60" x2="80" y2="140"/>
+    <line x1="100" y1="60" x2="100" y2="140"/>
+    <line x1="120" y1="60" x2="120" y2="140"/>
+    <line x1="140" y1="60" x2="140" y2="140"/>
+  </g>
+
+  <!-- Initials DM -->
+  <text x="100" y="110"
+        font-family="Montserrat, sans-serif"
+        font-weight="700"
+        font-size="40"
+        text-anchor="middle"
+        fill="#FFFFFF"
+        letter-spacing="-2">
+    DM
+  </text>
+
+  <!-- Company Name -->
+  <text x="100" y="180"
+        font-family="Playfair Display, serif"
+        font-weight="400"
+        font-size="16"
+        text-anchor="middle"
+        fill="#FFFFFF"
+        letter-spacing="0.5">
+    Dzainer Marcenaria
+  </text>
+</svg>
